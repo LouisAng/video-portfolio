@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "git lfs install || true && git lfs pull || true && next build",
     "start": "next start",
     "lint": "next lint"
   },

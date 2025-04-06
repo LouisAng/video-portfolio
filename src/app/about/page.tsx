@@ -11,7 +11,15 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto">
             <h1 className="text-4xl font-bold mb-6">안녕하세요, 황가연입니다</h1>
             <div className="flex justify-center mb-8">
-              <Image src="/images/about/about_me.png" alt="About Me" width={150} height={150} />
+              <Image 
+                src="/images/about/about_me.png" 
+                alt="About Me" 
+                width={150} 
+                height={150}
+                priority
+                unoptimized
+                className="rounded-full shadow-lg"
+              />
             </div>
             
             <div className="bg-gray-50 p-8 rounded-lg mb-10">

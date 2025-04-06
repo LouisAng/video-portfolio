@@ -19,6 +19,16 @@ const nextConfig: NextConfig = {
     // TypeScript 타입 검사를 빌드 시간에 사용할지 결정
     ignoreBuildErrors: true,
   },
+  images: {
+    unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'media.githubusercontent.com',
+        pathname: '/media/**',
+      },
+    ],
+  },
 };
 
 export default nextConfig;
