@@ -52,7 +52,7 @@ export default function Footer() {
                 </svg>
               </a> */}
               <a
-                href="https://www.youtube.com/@%EB%A7%88%ED%8C%85-t5y"
+                href="https://www.youtube.com/channel/UCTkGvVpwKVntCpygYgDnwCg"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-primary-400 transition-colors"

@@ -44,13 +44,13 @@ export default function Navbar() {
       </button>
 
       {/* 데스크톱 메뉴 */}
-      <ul className="hidden md:flex md:items-center md:gap-8">
+      <ul className="md:flex md:items-center md:gap-8">
         {navLinks.map((link) => (
           <li key={link.href}>
             <Link
               href={link.href}
-              className={`text-sm font-medium transition-colors hover:text-primary-400 ${
-                pathname === link.href ? 'text-primary-400' : 'text-white'
+              className={`text-sm font-medium transition-colors hover:text-gray-400 ${
+                pathname === link.href ? 'text-gray-500' : 'text-gray-400'
               }`}
             >
               {link.label}

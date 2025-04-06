@@ -23,13 +23,13 @@ export default function AboutPage() {
             </div>
             
             <div className="bg-gray-50 p-8 rounded-lg mb-10">
-              <p className="text-xl text-gray-700 mb-6">
+              <p className="text-xl text-gray-700 mb-6 font-bold">
                 기획부터 컷편집까지, 감각으로 밀어붙이는 25살 영상 PD
               </p>
               <div className="mb-8">
                 <h2 className="text-2xl font-bold mb-4 text-gray-600">내 이야기</h2>
                 <p className="mb-4 text-gray-600">
-                  대학에서 신문 방송학을 전공한 후, 기획부터 편집, 모션그래픽까지 한 프로젝트의 처음과 끝을 책임지는 콘텐츠 제작자입니다.
+                  대학에서 신문방송학을 전공한 후, 기획부터 편집, 모션그래픽까지 한 프로젝트의 처음과 끝을 책임지는 콘텐츠 제작자입니다.
                   영상의 목적과 흐름을 읽고, 브랜드가 원하는 무드를 감각적으로 풀어내는 데 집중해왔습니다.
                 </p>
                 <p className="mb-4 text-gray-600">
